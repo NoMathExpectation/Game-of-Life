@@ -1,0 +1,1 @@
+function gol:board/init/main/0
