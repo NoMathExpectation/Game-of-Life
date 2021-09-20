@@ -2,3 +2,5 @@ execute unless block ~ ~ ~ white_concrete unless block ~ ~ ~ black_concrete run 
 
 execute if score @s golCellStatus matches 0 run function gol:cell/update/bear
 execute unless score @s golCellStatus matches 0 run function gol:cell/update/die
+
+scoreboard players remove @s golActiveTime 1

@@ -17,9 +17,8 @@ scoreboard objectives add golPause trigger
 scoreboard objectives add golPlay trigger
 ## 快进
 scoreboard objectives add golWarp trigger
+## 活跃
+scoreboard objectives add golActiveTime dummy
 
 # 设置
 scoreboard objectives add golSettings dummy
-## 重置
-#define score_holder $reset
-execute unless score $reset golSettings matches 0 run function gol:default
